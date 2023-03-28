@@ -21,10 +21,10 @@ package v1alpha1
 import (
 	time "time"
 
-	egressipv1alpha1 "github.com/nirmata/kube-static-egress-ip/pkg/apis/egressip/v1alpha1"
-	versioned "github.com/nirmata/kube-static-egress-ip/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/nirmata/kube-static-egress-ip/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/nirmata/kube-static-egress-ip/pkg/client/listers/egressip/v1alpha1"
+	egressipv1alpha1 "/github.com/busterswt/kube-static-egress-ip/pkg/apis/egressip/v1alpha1"
+	versioned "/github.com/busterswt/kube-static-egress-ip/pkg/client/clientset/versioned"
+	internalinterfaces "/github.com/busterswt/kube-static-egress-ip/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "/github.com/busterswt/kube-static-egress-ip/pkg/client/listers/egressip/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -3,11 +3,11 @@ MAINTAINER Jim Bugwadia <jim@nirmata.com>
 
 ENV GOPATH=/workspace/golang/
 
-RUN mkdir -p /workspace/golang/src/github.com/nirmata/kube-static-egress-ip
+RUN mkdir -p /workspace/golang/src//github.com/busterswt/kube-static-egress-ip
 
-ADD $PWD /workspace/golang/src/github.com/nirmata/kube-static-egress-ip
+ADD $PWD /workspace/golang/src//github.com/busterswt/kube-static-egress-ip
 
-WORKDIR /workspace/golang/src/github.com/nirmata/kube-static-egress-ip/cmd/static-egressip-gateway-manager/
+WORKDIR /workspace/golang/src//github.com/busterswt/kube-static-egress-ip/cmd/static-egressip-gateway-manager/
 
 RUN CGO_ENABLED=0 go install -ldflags "-s" -v
 

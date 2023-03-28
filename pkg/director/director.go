@@ -12,7 +12,7 @@ import (
 	"github.com/coreos/go-iptables/iptables"
 	"github.com/golang/glog"
 	"github.com/janeczku/go-ipset/ipset"
-	utils "github.com/nirmata/kube-static-egress-ip/pkg/utils"
+	utils "/github.com/busterswt/kube-static-egress-ip/pkg/utils"
 	"k8s.io/client-go/kubernetes"
 )
 

@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	egressipAPI "github.com/nirmata/kube-static-egress-ip/pkg/apis/egressip/v1alpha1"
-	clientset "github.com/nirmata/kube-static-egress-ip/pkg/client/clientset/versioned"
-	listers "github.com/nirmata/kube-static-egress-ip/pkg/client/listers/egressip/v1alpha1"
-	utils "github.com/nirmata/kube-static-egress-ip/pkg/utils"
+	egressipAPI "/github.com/busterswt/kube-static-egress-ip/pkg/apis/egressip/v1alpha1"
+	clientset "/github.com/busterswt/kube-static-egress-ip/pkg/client/clientset/versioned"
+	listers "/github.com/busterswt/kube-static-egress-ip/pkg/client/listers/egressip/v1alpha1"
+	utils "/github.com/busterswt/kube-static-egress-ip/pkg/utils"
 
 	v1core "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

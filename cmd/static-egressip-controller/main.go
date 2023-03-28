@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	clientset "github.com/nirmata/kube-static-egress-ip/pkg/client/clientset/versioned"
-	informers "github.com/nirmata/kube-static-egress-ip/pkg/client/informers/externalversions"
-	"github.com/nirmata/kube-static-egress-ip/pkg/controller"
-	"github.com/nirmata/kube-static-egress-ip/pkg/signals"
-	"github.com/nirmata/kube-static-egress-ip/pkg/version"
+	clientset "/github.com/busterswt/kube-static-egress-ip/pkg/client/clientset/versioned"
+	informers "/github.com/busterswt/kube-static-egress-ip/pkg/client/informers/externalversions"
+	"/github.com/busterswt/kube-static-egress-ip/pkg/controller"
+	"/github.com/busterswt/kube-static-egress-ip/pkg/signals"
+	"/github.com/busterswt/kube-static-egress-ip/pkg/version"
 
 	kubeinformers "k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
