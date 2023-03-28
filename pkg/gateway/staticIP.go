@@ -17,9 +17,9 @@ func ConfigureStaticIP(staticVIP string) error {
 
         interfaceName = "lo"
 //	interfaceName, err := getInterfaceForNetwork(staticVIP)
-	if err != nil {
-		return err
-	}
+//	if err != nil {
+//		return err
+//	}
 	return addSecondaryIPToInterface(staticVIP, interfaceName)
 }
 
