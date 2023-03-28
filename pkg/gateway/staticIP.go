@@ -69,7 +69,7 @@ func getInterfaceName(staticIP net.IP, routeIndex int) (string, error) {
 			}
 		}
 	}
-	return "", fmt.Errorf("failed to find interface")
+	return "", fmt.Errorf("failed to find interface with routeIndex %d", int)
 }
 
 func existsInSameNetwork(addr net.Addr, ip net.IP) bool {
