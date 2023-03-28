@@ -15,7 +15,8 @@ import (
 // 		If found configure staticVIP on that interface.
 func ConfigureStaticIP(staticVIP string) error {
 
-	interfaceName, err := getInterfaceForNetwork(staticVIP)
+        interfaceName = "lo"
+//	interfaceName, err := getInterfaceForNetwork(staticVIP)
 	if err != nil {
 		return err
 	}
